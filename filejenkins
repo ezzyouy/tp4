@@ -1,8 +1,8 @@
 pipeline {
   environment {
     registry = "braezz/tp4_devops"
-    registryCredential = 'dockerhub'
-    dockerImage = 'b0b41c81-970f-443e-b9a6-5673b600cc69'
+    registryCredential = 'b152d981-175d-4cdf-ad8d-1b3dc59d2f5a'
+    dockerImage = ''
   }
   agent any
   stages {
